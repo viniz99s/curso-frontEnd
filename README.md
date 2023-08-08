@@ -32,3 +32,6 @@
  - develop
  - DOD (Definition of Done)
  - versionamento 0,0,0 = (versões, atualizações, bugs fixet)
+
+ ### Merge
+ - Mescla de versões
