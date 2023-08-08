@@ -1,0 +1,254 @@
+/*Estilo Geral Das Páginas*/
+
+@import url(./tabelas.css);
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/*Estruturas*/
+
+header{
+    background-color: deepskyblue;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid black;
+}
+
+header h2{
+    font-size: 2.6rem;
+    padding: 30px;
+}
+
+.areaConteudo{
+    width: 100vw;
+    height: 100%;
+}
+
+.navegacao{
+    background-color: lightgrey;
+    float: left;
+    display:table;
+    padding:15px;
+    width: 20%;
+    height: 100vw;
+}
+
+.navegacao h3{
+    margin-bottom: 15px;
+}
+
+
+article{
+    background-color: (256,256,256, 0.95);
+    float: left;
+    display: table;
+    padding: 20px;
+    width: 80%;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0px;
+    float: left;
+}
+
+ol, ul{
+    margin-left: 15px;
+}
+
+.navegacao li{
+    width: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid gray;
+
+}
+
+.navegacao li:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.navegacao li a{
+    color: black;
+    text-decoration: none;
+}
+
+.pagAtual{
+    color: red;
+    font-weight: bold;
+}
+
+.area100{
+    float: left;
+    width: 100%;
+    height: 100%;
+}
+
+/*Graficos*/
+
+.fotoPerfil{
+    border-radius: 100%;
+}
+
+.fotoPerfil:hover{
+    filter: grayscale(100%);
+    filter:blur(100%);
+}
+
+.imagemRodape{
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+
+/*Textos e Fontes*/
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+h1, h2, h3, p{
+    margin-top: 10px;
+}
+
+p, blockquote, a, li, tr, td, dt, dd{
+    font-size: 1.4rem;
+}
+
+.colunastextos2{
+    width: 45%;
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.colunastextos3{
+    width: 30%;
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+/* Formulários*/
+
+form{
+    border-bottom: 2px solid skyblue;
+    border-right: 2px solid skyblue;
+    border-top: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding: 10px;
+}
+
+form div{
+    width: 100%;
+}
+
+form input{
+    margin-bottom: 15px;
+    margin-right: 5px;
+}
+
+.caixaMensagem{
+    width: 600px;
+    height: 200px;
+    filter: opacity(75%);
+}
+
+/*Responsividade Multitela*/
+
+@media (max-width: 780px) {
+    .navegacao, article {
+      width: 100%;
+      height: 100%;
+    }
+
+    .area100{
+        width: 100%;
+        height: 100%;
+        padding-left: 5%;
+    }
+
+    .colunastextos2{
+        width: 45%;
+        height: 100%;
+        display: table;
+        float: left;
+        padding-left: 5%;
+    }
+    
+    .colunastextos3{
+        width: 45%;
+        height: 100%;
+        display: table;
+        float: left;
+        padding-left: 5%;
+    }
+
+    .imagemRodape{
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+
+    .caixaMensagem{
+        width: 100%;
+        height: 200px;
+        filter: opacity(75%);
+    }
+}
+
+@media (max-width: 320px) {
+    .navegacao, article {
+      width: 100%;
+      height: 100%;
+    }
+
+    .colunastextos2{
+        width: 85%;
+        height: 100%;
+        display: table;
+        float: left;
+    }
+    
+    .colunastextos3{
+        width: 85%;
+        height: 100%;
+        display: table;
+        float: left;
+    }
+
+    .imagemRodape{
+        background-repeat: no-repeat;
+        background-position-x: left;
+        background-position-y: bottom;
+    }
+
+    .caixaMensagem{
+        width: 100%px;
+        height: 200px;
+        filter: opacity(75%);
+    }
+}

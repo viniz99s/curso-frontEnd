@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Exercício 9 - Convite Café</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/estiloGeral.css">
+</head>
+<body>
+    <header>
+        <h2>Curso Front-End</h2>
+    </header>
+    <section>
+        <div class="areaConteudo">
+            <nav class="navegacao">
+                <ul>
+                    <li><a href="homepage.html">Home Page</a></li>
+                    <li><a href="formatacao-texto.html">Formatação de Texto</a></li>
+                    <li><a href="listas-e-links.html">Listas e Links</a></li>
+                    <li><a href="tabelas.html">Tabelas HTML</a></li>
+                    <li><a href="./formulário.html">Formulário</a></li>
+                    <li class="pagAtual"><a href="conviteCafe.html">Convite Para Um Café</a></li>
+                </ul>
+            </nav>
+            <article>
+                <form class="imagemRodape"
+                style="background-image:url(./imagem/fotoCafe.jpg);">
+                    <div>
+                        <label>Nome</label><br>
+                        <input id="nome" type="text" placeholder="Nome Completo">
+                    </div>
+                    <div>
+                        <label>Email</label><br>
+                        <input id="email" type="text" placeholder="E-mail">  
+                    </div>
+                    <div>
+                        <label>Nascimento</label><br>
+                        <input id="nasc" type="date" placeholder="Data de Nascimento">
+                    </div> 
+                    <div>
+                        <label>Endereço</label><br>
+                        <input id="logradouro" type="text" placeholder="Endereço"><br>
+                        <input id="nResidencia"type="number" placeholder="Número">
+                        <input id="compResidencia"type="text" placeholder="Complemento"><br>
+                        <input id="cidade" type="text" placeholder="Cidade">
+                        <input id="uf" type="text" placeholder="Estado">
+                    </div>
+                    <div>
+                        <label>Mensagem</label><br>
+                        <input id="mensagem" class="caixaMensagem" 
+                        type="text" placeholder="Digite o por que tomar um café com você...">
+                    </div>
+                </form>
+            </article>
+        </div>
+    </section>
+    <footer>
+        <p>Desenvolvido por Vinicius</p>
+    </footer>
+</body>
+</html>

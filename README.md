@@ -14,10 +14,12 @@
  Arquivo B | Versão 1
 
  ## Clonar Projeto
-
+ git clone https://github.com/viniz99s/curso-frontEnd.git
  # Commits
  Informação de Alteração
  - após testar todo o projeto
+ - git add *
+ - git commit -m "mensagem"
 
  ## GitFlow
  Fluxo do Git

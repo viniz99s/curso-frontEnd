@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 9 - Página de Cadastro</title>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/estiloGeral.css">
+</head>
+<body>
+    <header>
+        <h2>Curso Front-End</h2>
+    </header>
+    <section>
+        <div class="areaConteudo">
+            <nav class="navegacao">
+                <ul>
+                    <h3>Aulas</h3>
+                    <li><a href="homepage.html">Home Page</a></li>
+                    <li><a href="formatacao-texto.html">Formatação de Texto</a></li>
+                    <li><a href="listas-e-links.html">Listas e Links</a></li>
+                    <li><a href="tabelas.html">Tabelas HTML</a></li>
+                    <li class="pagAtual"><a href="formulário.html">Formulário</a></li>
+                    <li><a href="conviteCafe.html">Convite Para Um Café</a></li>
+                </ul>
+            </nav>
+            <article>
+                <div class="area100" style="background-color: red;
+                font-family: Cursive; text-align: center; margin-bottom: 20px;
+                height: 160px;">
+                    <h2 style="font-size: 2.6rem;">Loja Roupa</h2>
+                </div>
+                <form>
+                    <div id="info-person">
+                        <label>Informações Pessoais</label><br>
+                        <input id="nome" type="text" placeholder="Nome Completo"><br>
+                        <input id="nascimento" type="date" placeholder="Data de Nascimento">
+                        <br>
+                        <p>
+                            <input id="sexoM" type="checkbox">Masculino
+                            <input id="sexoF" type="checkbox">Feminino
+                        </p>
+                        <input id="cpf" type="number" placeholder="CPF"><br>
+                        <input id="tel" type="number" placeholder="Telefone">
+                    </div>
+                    <div id="info-tamanho">
+                        <p>Medições corporais</p><br>
+                        <label>Tamanho da Camisa</label><br>
+                        <input class="opcoes" type="radio" name="tamCamisa">PP
+                        <input class="opcoes" type="radio" name="tamCamisa">P
+                        <input class="opcoes" type="radio" name="tamCamisa">M
+                        <input class="opcoes" type="radio" name="tamCamisa">G
+                        <input class="opcoes" type="radio" name="tamCamisa">GG
+                        <br>
+                        <label>Tamanho da Calça</label><br>
+                        <input class="opcoes" type="radio" name="tamCalca">36
+                        <input class="opcoes" type="radio" name="tamCalca">38
+                        <input class="opcoes" type="radio" name="tamCalca">40
+                        <input class="opcoes" type="radio" name="tamCalca">42
+                        <input class="opcoes" type="radio" name="tamCalca">44
+                        <input class="opcoes" type="radio" name="tamCalca">46
+                        <input class="opcoes" type="radio" name="tamCalca">48
+                        <input class="opcoes" type="radio" name="tamCalca">50
+                        <br>
+                        <label>Tamanho da Calçado</label><br>
+                        <input class="opcoes" type="radio" name="tamCalcado">36
+                        <input class="opcoes" type="radio" name="tamCalcado">37
+                        <input class="opcoes" type="radio" name="tamCalcado">38
+                        <input class="opcoes" type="radio" name="tamCalcado">39
+                        <input class="opcoes" type="radio" name="tamCalcado">40
+                        <input class="opcoes" type="radio" name="tamCalcado">41
+                        <input class="opcoes" type="radio" name="tamCalcado">42
+                        <input class="opcoes" type="radio" name="tamCalcado">43
+                        <input class="opcoes" type="radio" name="tamCalcado">44
+                        <input class="opcoes" type="radio" name="tamCalcado">45
+                        <input class="opcoes" type="radio" name="tamCalcado">46
+                        <input class="opcoes" type="radio" name="tamCalcado">47
+                        <input class="opcoes" type="radio" name="tamCalcado">48
+                    </div>
+                    <div id="info-access">
+                        <label>Informações de Login</label><br>
+                        <input id="email" type="email" placeholder="Email"><br>
+                        <input id="senha" type="password" placeholder="Senha"><br>
+                        <input id="rsenha" type="password" placeholder="Repetir Senha">
+                    </div>
+                    <div id="info-residense">
+                        <label>Informações de  Residenciais</label><br>
+                        <input id="cep" type="number" placeholder="CEP"><br>
+                        <input id="endereco" type="text" placeholder="Encereço"><br>
+                        <input id="nEnd" type="number" placeholder="Número">
+                        <input id="compEnd" type="text" placeholder="Complemento"><br>
+                        <input id="cidEnd" type="text" placeholder="Cidade"><br>
+                        <input id="estEnd" type="text" placeholder="Estado">
+                    </div>
+                    <a id="enviaCadastro"><img id="imagemEnviar" src="./botãoEnviar.jpg" alt="Enviar"></a>
+                </form>
+            </article>
+        </div>
+    </section>         
+   <footer>
+        <p>Desenvolvido por Vinicius</p>
+   </footer>
+</body>
+</html>

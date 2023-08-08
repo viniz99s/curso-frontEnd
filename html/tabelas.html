@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>Exercício 9 - Tabelas</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+		<link rel="stylesheet" href="./css/reset.css">
+		<link rel="stylesheet" href="./css/estiloGeral.css">
+	</head>
+	<body>
+		<header>
+			<h2>Curso Front-End</h2>
+		</header>
+		<section>
+			<div class="areaConteudo">
+				<nav class="navegacao">
+					<ul>
+						<h3>Aulas</h3>
+						<li><a href="homepage.html">Home Page</a></li>
+						<li><a href="formatacao-texto.html">Formatação de Texto</a></li>
+						<li><a href="listas-e-links.html">Listas e Links</a></li>
+						<li class="pagAtual"><a href="tabelas.html">Tabelas HTML</a></li>
+						<li><a href="formulário.html">Formulário</a></li>
+						<li><a href="conviteCafe.html">Convite Para Um Café</a></li>
+					</ul>
+				</nav>
+				<article>
+
+					<h1>Tabelas</h1>
+
+					<table border="1" width="100%">
+						<thead>
+							<tr>
+								<th>Coluna 1</th>
+								<th>Coluna 2</th>
+								<th>Coluna 3</th>
+							</tr>
+						</thead>
+						<tbody>	
+							<tr align="center">
+								<td>1A</td>
+								<td>1B</td>
+								<td>1C</td>
+							</tr>
+							<tr align="right">
+								<td>2A</td>
+								<td>2B</td>
+								<td>2C</td>
+							</tr>
+							<tr>
+								<td>3A</td>
+								<td colspan="2">3BC</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="3">Rodapé da tabela</td>
+							</tr>
+						</tfoot>
+					</table>
+					<br>
+					<br>
+					<h2>Tabela como layout</h2>
+
+					<table width="600">
+						<tr height="90">
+							<td colspan="4" bgcolor="#BBCCEE" align="center"> Cabeçalho</td>
+						</tr>
+						<tr height="300">
+							<td width="20" bgcolor="#0000FF"></td>
+							<td width="60%" bgcolor="#DDDDDD">
+							<h2>Título</h2>
+							<p>fdajfkdj jfdjfodsapodhgdo odihofdfhsdooi</p>
+
+							</td>
+							<td bgcolor="#EEEEEE">Coluna 2</td>
+							<td width="20"bgcolor="#0000FF"></td>
+						</tr>
+						<tr>
+							<td bgcolor="#FF0000" colspan="4" align="center">Rodapé</td>
+						</tr>
+					</table>
+				</article>
+			</div>
+		</section>
+		<footer>
+			<p>Desenvolvido por Vinicius</p>
+		</footer>
+	</body>
+</html>
