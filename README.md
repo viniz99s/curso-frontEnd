@@ -20,6 +20,7 @@
  - após testar todo o projeto
  - git add *
  - git commit -m "mensagem"
+ - git push (enviar alterações para o repositório)
 
  ## GitFlow
  Fluxo do Git
