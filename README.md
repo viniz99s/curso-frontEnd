@@ -37,4 +37,16 @@ git branch -b 'nome da branch' (cria uma brench)
 git branch 'nome da branch' (muda para a branch)
 
  ### Merge
+ Talvez necessitará de resolver conflitos manualmente
  - Mescla de versões
+
+ git merge 'nome da branch que quer mesclar coma atual'
+
+ ### Pull Requests
+ Mescla de branchs no repositório
+ Permite code review
+ O repositório resolve os conflitos automaticamente
+
+ ### Configura o GitFlow
+ git flow init
+ git flow feature start 'nome da feature'
