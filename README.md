@@ -1,5 +1,5 @@
 # curso-frontEnd
-
+### EBAC
 # Git
 ## Conceitos
  - Histórico
@@ -24,3 +24,17 @@
 
  ## GitFlow
  Fluxo do Git
+
+ ### Branchs
+ Versões ramificadas/paralelas
+
+ - main/master
+ - develop
+ - DOD (Definition of Done)
+ - versionamento 0,0,0 = (versões, atualizações, bugs fixet)
+
+git branch -b 'nome da branch' (cria uma brench)
+git branch 'nome da branch' (muda para a branch)
+
+ ### Merge
+ - Mescla de versões
