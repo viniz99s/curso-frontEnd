@@ -24,3 +24,11 @@
 
  ## GitFlow
  Fluxo do Git
+
+ ### Branchs
+ Versões ramificadas/paralelas
+
+ - main/master
+ - develop
+ - DOD (Definition of Done)
+ - versionamento 0,0,0 = (versões, atualizações, bugs fixet)
