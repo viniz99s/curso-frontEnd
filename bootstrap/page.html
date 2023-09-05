@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Logo</title>
+        <link href="./bootstrap 5/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="./style/customCss.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>Logo</h1>
+                    </div>
+                    <div class="col">
+                        <ul class="nav justify-content-end">
+                            <li class="nav-item"><a class="nav-link     active" href="">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Produtos</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Sobre</a></li>
+                            <li class="nav-item"><a class="nav-link" href="">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-4">
+                        <h2>Telas</h2>
+                        <p>As melhores opções de telas do mercado. Escolha dentre os varios 
+                        tipos diferendes de telas que seja mais conveniente para você.</p>
+                    </div>
+                    <div class="col-8">
+                        <div class="row">
+                            <div style="background-image:url(./imagens/altaDefinicao.jpg);"
+                            class="col tipos">
+                                <h3 class="textBelow">Maiores Resoluções</h3>
+                            </div>
+                            <div style="background-image:url(./imagens/telaFluida.jpg);"
+                            class="col tipos">
+                                <h3 class="textBelow">Maior fluidez</h3>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div style="background-image:url(./imagens/compacta.jpg);
+                            background-position-x: -50px; background-position-y: -100px;"
+                            class="col tipos">
+                                <h3 class="textBelow">Compactas</h3>
+                            </div>
+                            <div style="background-image:url(./imagens/praGalera.jpg);"
+                            class="col tipos">
+                                <h3 class="textBelow">Para a galera!</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>Produtos Mais Vendidos</h3>
+                        <div class="card">
+                            <img src="./imagens/produto1.png"
+                            alt="fotoP1" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a data-bs-toggle="modal" data-bs-target="#modalP1" 
+                                class="btn btn-primary">
+                                Ver Produto</a>
+                                <a class="btn btn-success">
+                                Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./imagens/produto2.png"
+                            alt="fotoP2" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a data-bs-toggle="modal" data-bs-target="#modalP2" 
+                                class="btn btn-primary">
+                                Ver Produto</a>
+                                <a class="btn btn-success">
+                                Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./imagens/produto3.png"
+                            alt="fotoP3" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a data-bs-toggle="modal" data-bs-target="#modalP3" 
+                                class="btn btn-primary">
+                                Ver Produto</a>
+                                <a class="btn btn-success">
+                                Comprar</a>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img src="./imagens/produto4.png"
+                            alt="fotoP4" class="img-fluid">
+                            <div class="card-body">
+                                <h5 class="card-title"></h5>
+                                <p class="card-text"></p>
+                                <a data-bs-toggle="modal" data-bs-target="#modalP4" 
+                                class="btn btn-primary">
+                                Ver Produto</a>
+                                <a class="btn btn-success">
+                                Comprar</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal fade" id="modalP1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as especificações</h6>
+                        <table class="table">
+                            <thead>
+                                <tr>Produto</tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Resolulção</td>
+                                    <td>2K</td>
+                                </tr>
+                                <tr>
+                                    <td>Polegadas</td>
+                                    <td>55'</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Tela</td>
+                                    <td>Led</td>
+                                </tr>
+                                <tr>
+                                    <td>Preço</td>
+                                    <td>2.195,99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+            <div class="modal fade" id="modalP2">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as especificações</h6>
+                        <table class="table">
+                            <thead>
+                                <tr>Produto</tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Resolulção</td>
+                                    <td>Full HD</td>
+                                </tr>
+                                <tr>
+                                    <td>Polegadas</td>
+                                    <td>32'</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Tela</td>
+                                    <td>LCD</td>
+                                </tr>
+                                <tr>
+                                    <td>Preço</td>
+                                    <td>1.399,99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+            <div class="modal fade" id="modalP3">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as especificações</h6>
+                        <table class="table">
+                            <thead>
+                                <tr>Produto</tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Resolulção</td>
+                                    <td>2K</td>
+                                </tr>
+                                <tr>
+                                    <td>Polegadas</td>
+                                    <td>32'</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Tela</td>
+                                    <td>Led</td>
+                                </tr>
+                                <tr>
+                                    <td>Preço</td>
+                                    <td>1.785,99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary"
+                data-bs-dismiss="modal">Close</button>
+            </div>
+            </div>
+            <div class="modal fade" id="modalP4">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title"></h5>
+                        <button class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <h6>Confira as especificações</h6>
+                        <table class="table">
+                            <thead>
+                                <tr>Produto</tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Resolulção</td>
+                                    <td>4K</td>
+                                </tr>
+                                <tr>
+                                    <td>Polegadas</td>
+                                    <td>70'</td>
+                                </tr>
+                                <tr>
+                                    <td>Tipo Tela</td>
+                                    <td>Led</td>
+                                </tr>
+                                <tr>
+                                    <td>Preço</td>
+                                    <td>2.789,99</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary"
+                    data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>  
+        </section>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col"><h2>Dúvidas sobre algo???<br>Conte-nos sua dúvida ao
+                    preencher o formulário ao lado para nós o(a) responder</h2></div>
+                    <div class="col">
+                        <form class="form">
+                            <div class="input-group">
+                                <input class="form-control" name="nome" placeholder="Nome">
+                            </div>
+                            <div class="input-group">
+                                <input class="form-control" name="email" placeholder="Email">
+                            </div>
+                            <div class="input-group">
+                                <textarea class="form-control" name="duvida"
+                                placeholder="Digite sua dúvida" rows="10"></textarea>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>   
+        <script src="./bootstrap 5/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

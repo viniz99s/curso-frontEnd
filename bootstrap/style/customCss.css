@@ -1,0 +1,19 @@
+section{
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+}
+
+input{
+    margin-bottom: 1rem;
+}
+
+.tipos{
+    color: white;
+    text-align: bottom;
+    height: 200px;
+}
+
+.card{
+    width: 24%;
+    float: left;
+}
