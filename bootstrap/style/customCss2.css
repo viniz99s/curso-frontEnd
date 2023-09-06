@@ -2,11 +2,14 @@ body{
     background-color: #66bbff;
 }
 
+header{
+    margin-top: 10px;
+}
+
 div{
     background-color: white;
     border-radius: 10px;
     padding-top: 5px;
-    margin-top: 10px;
     margin-bottom: 5px;
     margin-right: 5px;
 }
