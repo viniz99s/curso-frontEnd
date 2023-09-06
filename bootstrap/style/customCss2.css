@@ -1,19 +1,12 @@
-section{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+body{
+    background-color: #66bbff;
 }
 
-input{
-    margin-bottom: 1rem;
-}
-
-.tipos{
-    color: white;
-    text-align: bottom;
-    height: 200px;
-}
-
-.card{
-    width: 24%;
-    float: left;
+div{
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 5px;
 }
